@@ -29,7 +29,7 @@ function onFormSubmit(e) {
     e.preventDefault();
 
     if(!email.value.trim() || !message.value.trim())
-        return allert('Email or message is empty!');
+        return alert('Email or message is empty!');
 
     console.log({
         email: email.value,
